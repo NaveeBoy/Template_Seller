@@ -15,52 +15,44 @@ function Home() {
           id: 1,
           title: 'Template 1',
           description: 'This is template 1',
-          thumbnail: '/path/to/thumbnail1.jpg',
+          thumbnail: '/HomePage.PNG',
           demoUrl: '/templates/1',
         },
         {
           id: 2,
           title: 'Template 2',
           description: 'This is template 2',
-          thumbnail: '/path/to/thumbnail2.jpg',
+          thumbnail: '/HomePage.PNG',
           demoUrl: '/templates/2',
         },
         {
             id: 3,
             title: 'Template 2',
             description: 'This is template 2',
-            thumbnail: '/path/to/thumbnail2.jpg',
+            thumbnail: '/HomePage.PNG',
             demoUrl: '/templates/2',
           },
           {
             id: 3,
             title: 'Template 2',
             description: 'This is template 2',
-            thumbnail: '/path/to/thumbnail2.jpg',
+            thumbnail: '/HomePage.PNG',
             demoUrl: '/templates/2',
           },
           {
             id: 3,
             title: 'Template 2',
             description: 'This is template 2',
-            thumbnail: '/path/to/thumbnail2.jpg',
+            thumbnail: '/HomePage.PNG',
             demoUrl: '/templates/2',
           },
           {
             id: 3,
             title: 'Template 2',
             description: 'This is template 2',
-            thumbnail: '/path/to/thumbnail2.jpg',
+            thumbnail: '/HomePage.PNG',
             demoUrl: '/templates/2',
           },
-          {
-            id: 3,
-            title: 'Template 2',
-            description: 'This is template 2',
-            thumbnail: '/path/to/thumbnail2.jpg',
-            demoUrl: '/templates/2',
-          },
-          
         // Add more template objects as needed
       ];
       setRecentTemplates(fetchedTemplates);
