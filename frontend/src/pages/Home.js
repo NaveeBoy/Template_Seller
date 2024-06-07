@@ -53,6 +53,14 @@ function Home() {
             thumbnail: '/path/to/thumbnail2.jpg',
             demoUrl: '/templates/2',
           },
+          {
+            id: 3,
+            title: 'Template 2',
+            description: 'This is template 2',
+            thumbnail: '/path/to/thumbnail2.jpg',
+            demoUrl: '/templates/2',
+          },
+          
         // Add more template objects as needed
       ];
       setRecentTemplates(fetchedTemplates);
