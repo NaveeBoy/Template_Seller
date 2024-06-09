@@ -5,14 +5,14 @@ function Footer() {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto flex flex-wrap justify-between">
-        <div className="w-full md:w-1/3 mb-8 md:mb-0">
+        <div className="" style={{maxWidth:"30%"}}>
           <h2 className="text-2xl font-bold mb-4">About Us</h2>
           <p className="text-gray-400">
             We are a company dedicated to providing high-quality website templates
             for developers and businesses.
           </p>
         </div>
-        <div className="w-full md:w-1/3 mb-8 md:mb-0">
+        <div className=""style={{}}>
           <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
           <p className="text-gray-400">
             Email: info@example.com<br />
@@ -20,7 +20,7 @@ function Footer() {
             Address: 123 Street, City, Country
           </p>
         </div>
-        <div className="w-full md:w-1/3">
+        <div className="">
           <h2 className="text-2xl font-bold mb-4">Follow Us</h2>
           <div className="flex space-x-4">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -44,7 +44,10 @@ function Footer() {
             &copy; {new Date().getFullYear()} Your Company Name. All rights reserved.
           </p>
           <div className="mt-4">
-            <img src="/path/to/payment-icons.png" alt="Payment Icons" className="inline-block" />
+            <img src="/paymenticons/applepay-icon.svg" alt="Payment Icons" className="inline-block" width={50} style={{margin:"10px"}}/>
+            <img src="/paymenticons/googlepay-icon.svg" alt="Payment Icons" className="inline-block" width={50} style={{margin:"10px"}}/>
+            <img src="/paymenticons/mastercard-icon.svg" alt="Payment Icons" className="inline-block" style={{margin:"10px"}} />
+            <img src="/paymenticons/visa-icon.svg" alt="Payment Icons" className="inline-block"  style={{margin:"10px"}}/>
           </div>
         </div>
       </div>

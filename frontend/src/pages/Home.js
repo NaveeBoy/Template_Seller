@@ -61,7 +61,8 @@ function Home() {
   }, []);
 
   return (
-    <div className="container mx-auto py-8">
+    <div style={{background:"#DAD3BE"}}>
+    <div className="container mx-auto py-8" >
       {isLoading ? (
         <Loading />
       ) : (
@@ -76,13 +77,14 @@ function Home() {
           ) : (
             <p className="text-center text-gray-600">No recent templates found.</p>
           )}
-          <div className="mt-8 text-center">
+          <div className="mt-8 text-center" style={{fontWeight:"bold",fontSize:"26px"}}>
             <a href="/templates" className="btn btn-primary">
               See More Templates
             </a>
           </div>
         </>
       )}
+    </div>
     </div>
   );
 }

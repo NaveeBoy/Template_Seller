@@ -3,8 +3,8 @@ import { FaHeart, FaShoppingCart, FaTag } from 'react-icons/fa';
 
 function TemplateCard({ template }) {
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden">
-      <img src={template.thumbnail} alt={template.title} className="w-full h-48 object-cover" />
+    <div className=" shadow-md rounded-lg overflow-hidden" style={{background:"#DDDDDD"}}>
+      <img src={template.thumbnail} alt={template.title} className="w-full h-48 p-1" style={{borderRadius:"10px"}}/>
       <div className="p-4">
         <h2 className="text-xl font-bold mb-2">{template.title}</h2>
         <p className="text-gray-600 mb-4">{template.description}</p>
